@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Public Transportation</title>
+    <link rel="stylesheet" href="public.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>City Public Transportation</h1>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat">
+                <h3 id="total-passengers">Loading...</h3>
+                <p>Total Passengers Today</p>
+            </div>
+            <div class="stat">
+                <h3 id="total-buses">Loading...</h3>
+                <p>City Buses Available</p>
+            </div>
+            <div class="stat">
+                <h3 id="total-trains">Loading...</h3>
+                <p>Trains Available</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="transport-section">
+                <h2>Available Trains</h2>
+                <table id="train-table">
+                    <thead>
+                        <tr>
+                            <th>Train Name</th>
+                            <th>Route</th>
+                            <th>Next Arrival</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Train Red Line</td>
+                            <td>Miyapur to LB Nagar</td>
+                            <td id="train-a-arrival">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td>Train Blue Line</td>
+                            <td>Nagole to Raidurga</td>
+                            <td id="train-b-arrival">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td>Train Green Line</td>
+                            <td>JBS Parade to MGBS</td>
+                            <td id="train-c-arrival">Loading...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="transport-section">
+                <h2>Available Buses</h2>
+                <table id="bus-table">
+                    <thead>
+                        <tr>
+                            <th>Bus Name</th>
+                            <th>Route</th>
+                            <th>Next Arrival</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bus 101</td>
+                            <td>MG Bus station to LB Nagar</td>
+                            <td id="bus-101-arrival">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td>Bus 205</td>
+                            <td>Miyapur to MG Bus Station</td>
+                            <td id="bus-205-arrival">Loading...</td>
+                        </tr>
+                        <tr>
+                            <td>Bus 303</td>
+                            <td>MG Bus Station to Secundrabad</td>
+                            <td id="bus-303-arrival">Loading...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="public.js"></script>
+</body>
+</html>
